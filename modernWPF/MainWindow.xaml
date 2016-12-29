@@ -22,7 +22,7 @@
     </mui:ModernWindow.MenuLinkGroups>
     
     <mui:ModernWindow.TitleLinks>
-        <mui:Link DisplayName="AYARLAR" Source="/Pages/SettingsPage.xaml" />
+        <mui:Link DisplayName="TEMA DEĞİŞTİR" Source="/Pages/SettingsPage.xaml" />
        
         
     </mui:ModernWindow.TitleLinks>
