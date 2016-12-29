@@ -27,13 +27,13 @@ namespace modernWPF.Pages
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            if ((ad.Text=="admin")&&(sifre.Text=="123"))
+            if ((ad.Text=="admin")&&sifre.Password=="123")
             {
                 FirstFloor.ModernUI.Presentation.LinkGroup menugrubu = new FirstFloor.ModernUI.Presentation.LinkGroup();
                 menugrubu.DisplayName = "Hosgeldinn Admins";
                 FirstFloor.ModernUI.Presentation.Link linkeklenecek = new FirstFloor.ModernUI.Presentation.Link();
                 linkeklenecek.DisplayName = "ADMİN PANELİ";
-                linkeklenecek.Source = new Uri("Pages/BasicPage1.xamls", UriKind.Relative);
+                linkeklenecek.Source = new Uri("Pages/BasicPage1.xaml", UriKind.Relative);
 
                 menugrubu.Links.Add(linkeklenecek);
                 MainWindow ab = Application.Current.MainWindow as MainWindow;
@@ -43,7 +43,7 @@ namespace modernWPF.Pages
                
                 
             }
-            else if((ad.Text == "basic") && (sifre.Text == "123"))
+            else if((ad.Text == "basic") && (sifre.Password == "123"))
             {
                 FirstFloor.ModernUI.Presentation.LinkGroup menugrubu = new FirstFloor.ModernUI.Presentation.LinkGroup();
                 menugrubu.DisplayName = "Hosgeldiniz";
