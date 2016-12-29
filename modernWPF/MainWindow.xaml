@@ -1,0 +1,29 @@
+﻿<mui:ModernWindow x:Class="modernWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+        Title="YUSUF DEMİR" IsTitleVisible="True" ResizeMode="NoResize"
+        LogoData="F1 M 39.6888,40.9252L 39.6888,50.2445L 36.3111,50.2445L 36.3111,40.9252L 28.0102,24.4889L 31.9199,24.4889L 37.9915,36.8639L 44.3038,24.4889L 47.9686,24.4889M 19,19L 19,57L 57,57L 57,19L 19,19 Z "          
+        ContentSource="/Pages/Home.xaml">
+
+    <mui:ModernWindow.MenuLinkGroups>
+        <mui:LinkGroup DisplayName="welcome">
+            <mui:LinkGroup.Links>
+                <mui:Link DisplayName="home" Source="/Pages/Home.xaml" />
+                <mui:Link DisplayName="admin" Source="/Pages/BasicPage1.xaml" />
+
+            </mui:LinkGroup.Links>
+        </mui:LinkGroup>
+        <mui:LinkGroup DisplayName="settings" GroupKey="settings">
+            <mui:LinkGroup.Links>
+                <mui:Link DisplayName="software" Source="/Pages/SettingsPage.xaml" />
+            </mui:LinkGroup.Links>
+        </mui:LinkGroup>
+    </mui:ModernWindow.MenuLinkGroups>
+    
+    <mui:ModernWindow.TitleLinks>
+        <mui:Link DisplayName="AYARLAR" Source="/Pages/SettingsPage.xaml" />
+       
+        
+    </mui:ModernWindow.TitleLinks>
+</mui:ModernWindow>

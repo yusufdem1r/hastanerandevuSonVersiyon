@@ -1,0 +1,61 @@
+c:\users\blglab-01-30\documents\visual studio 2015\Projects\modernWPF\modernWPF\bin\Debug\modernWPF.exe
+c:\users\blglab-01-30\documents\visual studio 2015\Projects\modernWPF\modernWPF\bin\Debug\modernWPF.pdb
+c:\users\blglab-01-30\documents\visual studio 2015\Projects\modernWPF\modernWPF\bin\Debug\FirstFloor.ModernUI.dll
+c:\users\blglab-01-30\documents\visual studio 2015\Projects\modernWPF\modernWPF\bin\Debug\FirstFloor.ModernUI.xml
+c:\users\blglab-01-30\documents\visual studio 2015\Projects\modernWPF\modernWPF\obj\Debug\modernWPF.csprojResolveAssemblyReference.cache
+c:\users\blglab-01-30\documents\visual studio 2015\Projects\modernWPF\modernWPF\obj\Debug\MainWindow.baml
+c:\users\blglab-01-30\documents\visual studio 2015\Projects\modernWPF\modernWPF\obj\Debug\Pages\Settings\About.baml
+c:\users\blglab-01-30\documents\visual studio 2015\Projects\modernWPF\modernWPF\obj\Debug\Pages\Settings\Appearance.baml
+c:\users\blglab-01-30\documents\visual studio 2015\Projects\modernWPF\modernWPF\obj\Debug\Pages\Home.baml
+c:\users\blglab-01-30\documents\visual studio 2015\Projects\modernWPF\modernWPF\obj\Debug\Pages\SettingsPage.baml
+c:\users\blglab-01-30\documents\visual studio 2015\Projects\modernWPF\modernWPF\obj\Debug\App.baml
+c:\users\blglab-01-30\documents\visual studio 2015\Projects\modernWPF\modernWPF\obj\Debug\MainWindow.g.cs
+c:\users\blglab-01-30\documents\visual studio 2015\Projects\modernWPF\modernWPF\obj\Debug\Pages\Settings\About.g.cs
+c:\users\blglab-01-30\documents\visual studio 2015\Projects\modernWPF\modernWPF\obj\Debug\Pages\Settings\Appearance.g.cs
+c:\users\blglab-01-30\documents\visual studio 2015\Projects\modernWPF\modernWPF\obj\Debug\Pages\Home.g.cs
+c:\users\blglab-01-30\documents\visual studio 2015\Projects\modernWPF\modernWPF\obj\Debug\Pages\SettingsPage.g.cs
+c:\users\blglab-01-30\documents\visual studio 2015\Projects\modernWPF\modernWPF\obj\Debug\App.g.cs
+c:\users\blglab-01-30\documents\visual studio 2015\Projects\modernWPF\modernWPF\obj\Debug\modernWPF_MarkupCompile.cache
+c:\users\blglab-01-30\documents\visual studio 2015\Projects\modernWPF\modernWPF\obj\Debug\modernWPF.g.resources
+c:\users\blglab-01-30\documents\visual studio 2015\Projects\modernWPF\modernWPF\obj\Debug\modernWPF.exe
+c:\users\blglab-01-30\documents\visual studio 2015\Projects\modernWPF\modernWPF\obj\Debug\modernWPF.pdb
+c:\users\blglab-01-30\documents\visual studio 2015\Projects\modernWPF\modernWPF\obj\Debug\Diaglog\ModernDialog1.baml
+c:\users\blglab-01-30\documents\visual studio 2015\Projects\modernWPF\modernWPF\obj\Debug\Diaglog\ModernDialog1.g.cs
+c:\users\blglab-01-30\documents\visual studio 2015\Projects\modernWPF\modernWPF\obj\Debug\Pages\BasicPage1.baml
+c:\users\blglab-01-30\documents\visual studio 2015\Projects\modernWPF\modernWPF\obj\Debug\Pages\BasicPage1.g.cs
+c:\users\blglab-01-30\documents\visual studio 2015\Projects\modernWPF\modernWPF\obj\Debug\ModernWindow1.baml
+c:\users\blglab-01-30\documents\visual studio 2015\Projects\modernWPF\modernWPF\obj\Debug\ModernWindow1.g.cs
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\modernWPF.exe
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\modernWPF.pdb
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\bin\Debug\modernWPF.exe
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\bin\Debug\modernWPF.pdb
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\bin\Debug\FirstFloor.ModernUI.dll
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\bin\Debug\FirstFloor.ModernUI.xml
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\modernWPF.csprojResolveAssemblyReference.cache
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\Diaglog\ModernDialog1.baml
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\MainWindow.baml
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\ModernWindow1.baml
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\Pages\BasicPage1.baml
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\Pages\Settings\About.baml
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\Pages\Settings\Appearance.baml
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\Pages\Home.baml
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\Pages\SettingsPage.baml
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\App.baml
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\Diaglog\ModernDialog1.g.cs
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\MainWindow.g.cs
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\ModernWindow1.g.cs
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\Pages\BasicPage1.g.cs
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\Pages\Settings\About.g.cs
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\Pages\Settings\Appearance.g.cs
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\Pages\Home.g.cs
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\Pages\SettingsPage.g.cs
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\App.g.cs
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\modernWPF_MarkupCompile.cache
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\modernWPF.g.resources
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\modernWPF_Content.g.cs
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\Pages\radevutakip.baml
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\Pages\randevu.baml
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\Pages\uyeguncelle.baml
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\Pages\radevutakip.g.cs
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\Pages\randevu.g.cs
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\Pages\uyeguncelle.g.cs
