@@ -30,7 +30,7 @@ namespace modernWPF.Pages
             if ((ad.Text=="admin")&&(sifre.Text=="123"))
             {
                 FirstFloor.ModernUI.Presentation.LinkGroup menugrubu = new FirstFloor.ModernUI.Presentation.LinkGroup();
-                menugrubu.DisplayName = "Hosgeldinn Admin";
+                menugrubu.DisplayName = "Hosgeldinn Admins";
                 FirstFloor.ModernUI.Presentation.Link linkeklenecek = new FirstFloor.ModernUI.Presentation.Link();
                 linkeklenecek.DisplayName = "ADMİN PANELİ";
                 linkeklenecek.Source = new Uri("Pages/BasicPage1.xamls", UriKind.Relative);
