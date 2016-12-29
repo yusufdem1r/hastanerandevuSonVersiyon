@@ -27,7 +27,7 @@ namespace modernWPF.Pages
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            if ((ad.Text=="admin")&&sifre.Password=="123")
+            if ((ad.Text=="admin")&&(sifre.Password=="123"))
             {
                 FirstFloor.ModernUI.Presentation.LinkGroup menugrubu = new FirstFloor.ModernUI.Presentation.LinkGroup();
                 menugrubu.DisplayName = "Hosgeldinn Admins";
@@ -68,7 +68,8 @@ namespace modernWPF.Pages
             }
             else
             {
-                MessageBox.Show("KULLANICI ADI VEYA ŞİFRE YANLIŞ");
+                Diaglog.hatamsj HATA = new Diaglog.hatamsj();
+                HATA.ShowDialog();
 
             }
             

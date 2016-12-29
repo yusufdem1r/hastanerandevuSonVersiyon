@@ -59,3 +59,5 @@ C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\Pages\uyeguncelle.baml
 C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\Pages\radevutakip.g.cs
 C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\Pages\randevu.g.cs
 C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\Pages\uyeguncelle.g.cs
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\Diaglog\hatamsj.baml
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Debug\Diaglog\hatamsj.g.cs
