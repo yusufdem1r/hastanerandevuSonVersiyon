@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using System.Drawing;
 namespace modernWPF.Pages
 {
     /// <summary>
@@ -23,6 +23,9 @@ namespace modernWPF.Pages
         public Home()
         {
             InitializeComponent();
+            BitmapImage res = new BitmapImage(new Uri("../resim/logo.png", UriKind.Relative));
+            resim.Source = res;
+          
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
