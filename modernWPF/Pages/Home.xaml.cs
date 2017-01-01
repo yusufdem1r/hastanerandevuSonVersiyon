@@ -26,7 +26,7 @@ namespace modernWPF.Pages
         public Home()
         {
             InitializeComponent();
-           
+            
             BitmapImage res = new BitmapImage(new Uri("../resim/logo.png", UriKind.Relative));
             resim.Source = res;
           
@@ -49,9 +49,10 @@ namespace modernWPF.Pages
                 MainWindow ab = Application.Current.MainWindow as MainWindow;
                 ab.MenuLinkGroups.Clear();
                 ab.MenuLinkGroups.Add(menugrubu);
-              
-               
-                
+                bag.Close();
+
+
+
             }
            
             else if (rd.Read())
@@ -82,6 +83,7 @@ namespace modernWPF.Pages
             {
                 Diaglog.hatamsj HATA = new Diaglog.hatamsj();
                 HATA.ShowDialog();
+                bag.Close();
 
             }
             
@@ -91,24 +93,20 @@ namespace modernWPF.Pages
         { 
             Diaglog.ModernDialog1 md = new Diaglog.ModernDialog1();
             md.ShowDialog();
-          
+            bag.Open();
             if (md.DialogResult.Value == true)
             {
-                bag.Open();
-                MySqlCommand girisyap2 = new MySqlCommand("Select * from uyeler where tc='" + md.tcno.Text.ToString() + "'", bag);
-                MySqlDataReader oku = girisyap2.ExecuteReader();
-              if(oku.Read())
-                {
-                    MessageBox.Show("Daha önce böyle bir kullanıcı adı kullanılmıs");
+                
+                //MySqlCommand girisyap2 = new MySqlCommand("Select * from uyeler where tc='" + md.tcno.Text.ToString() + "'", bag);
+                //MySqlDataReader oku = girisyap2.ExecuteReader();
+              
+                    
+                    MySqlCommand ekle = new MySqlCommand("INSERT INTO uyeler(tc,ad,soyad,cinsiyet,dYeri,dTarihi,babaad,annead,eposta,sifre) VALUES ('" + md.tcno.Text + "','" + md.ad.Text + "','" + md.soyad.Text + "','" + md.cinsiyet.Text + "','" + md.dyeri.Text + "','" + md.tarih.Text + "','" + md.babaad.Text + "','" + md.annead.Text + "','" + md.eposta.Text + "','" + md.sifre.Password + "')", bag);
+                    ekle.ExecuteNonQuery();
+                    ekle.Dispose();
                     bag.Close();
-                }
-                else { 
-                MySqlCommand ekle = new MySqlCommand("INSERT INTO uyeler(tc,ad,soyad,cinsiyet,dYeri,dTarihi,babaad,annead,eposta,sifre) VALUES ('" + md.tcno.Text + "','" + md.ad.Text + "','" + md.soyad.Text + "','" + md.cinsiyet.Text + "','" + md.dyeri.Text + "','"+md.tarih.Text+"','"+md.babaad.Text+"','"+md.annead.Text+"','"+md.eposta.Text+"','"+md.sifre.Text+"')", bag);
-                ekle.ExecuteNonQuery();
-                ekle.Dispose();
-                bag.Close();
-                MessageBox.Show((md.cinsiyet.Text).ToString());
-                }
+                    MessageBox.Show((md.cinsiyet.Text).ToString());
+                
 
             }
             else

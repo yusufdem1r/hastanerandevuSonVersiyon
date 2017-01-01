@@ -49,7 +49,7 @@
             <Label Grid.Column="0" Grid.Row="8">Anne Adı: </Label><TextBox Margin="5px" Name="annead" Grid.Column="1" Grid.Row="8"></TextBox>
             <Label Grid.Column="0" Grid.Row="9">E-posta Adresiniz: </Label><TextBox Margin="5px" Name="eposta" Grid.Column="1" Grid.Row="9"></TextBox>
 
-            <Label Grid.Column="0" Grid.Row="10">Parolanız:</Label><TextBox Margin="5px" Name="sifre" Grid.Column="1" Grid.Row="10"></TextBox>
+            <Label Grid.Column="0" Grid.Row="10">Parolanız:</Label><PasswordBox Margin="5px" Name="sifre" Grid.Column="1" Grid.Row="10"></PasswordBox>
             
 <DatePicker Margin="5" Grid.Row="6" Grid.Column="1"  Name="tarih"  />
            <ComboBox Name="cinsiyet" Margin="5px" Grid.Row="4" Grid.Column="1"/>
