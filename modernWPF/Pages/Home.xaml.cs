@@ -79,18 +79,19 @@ namespace modernWPF.Pages
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
+        { 
             Diaglog.ModernDialog1 md = new Diaglog.ModernDialog1();
             md.ShowDialog();
-            //if (md.DialogResult.Value == true)
-            //{
-            //    MessageBox.Show("oku tıkladın");
+          
+            if (md.DialogResult.Value == true)
+            {
+                MessageBox.Show((md.cinsiyet.Text).ToString());
 
-            //}
-            //else
-            //{
-            //    MessageBox.Show("cancel");
-            //}
+            }
+            else
+            {
+                MessageBox.Show("cancel");
+            }
 
         }
     }

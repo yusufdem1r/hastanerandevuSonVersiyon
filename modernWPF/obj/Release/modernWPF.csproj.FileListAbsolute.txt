@@ -3,7 +3,6 @@ C:\Users\YUSUF\Desktop\modernWPF\modernWPF\bin\Release\modernWPF.pdb
 C:\Users\YUSUF\Desktop\modernWPF\modernWPF\bin\Release\FirstFloor.ModernUI.dll
 C:\Users\YUSUF\Desktop\modernWPF\modernWPF\bin\Release\FirstFloor.ModernUI.xml
 C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Release\Diaglog\hatamsj.baml
-C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Release\Diaglog\ModernDialog1.baml
 C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Release\MainWindow.baml
 C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Release\Pages\BasicPage1.baml
 C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Release\Pages\radevutakip.baml
@@ -15,7 +14,6 @@ C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Release\Pages\SettingsPage.baml
 C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Release\Pages\uyeguncelle.baml
 C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Release\App.baml
 C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Release\Diaglog\hatamsj.g.cs
-C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Release\Diaglog\ModernDialog1.g.cs
 C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Release\MainWindow.g.cs
 C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Release\Pages\BasicPage1.g.cs
 C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Release\Pages\radevutakip.g.cs
@@ -32,3 +30,5 @@ C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Release\modernWPF.g.resources
 C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Release\modernWPF.exe
 C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Release\modernWPF.pdb
 C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Release\modernWPF.csprojResolveAssemblyReference.cache
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Release\Diaglog\ModernDialog1.baml
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Release\Diaglog\ModernDialog1.g.cs

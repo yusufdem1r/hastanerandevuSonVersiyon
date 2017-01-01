@@ -27,6 +27,19 @@ namespace modernWPF.Diaglog
 
             // define the dialog buttons
             this.Buttons = new Button[] { this.OkButton, this.CancelButton };
+            cinsiyet.Items.Add("Erkek");
+            cinsiyet.Items.Add("Kız");
+            //Diaglog.ModernDialog1 md = new Diaglog.ModernDialog1();
+            //md.ShowDialog();
+            //if (md.DialogResult.Value == true)
+            //{
+            //    MessageBox.Show("tıkladın");
+
+            //}
+            //else
+            //{
+            //    MessageBox.Show("cancel");
+            //}
         }
     }
 }
