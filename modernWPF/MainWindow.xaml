@@ -4,7 +4,7 @@
         xmlns:mui="http://firstfloorsoftware.com/ModernUI"
         Title="YUSUF DEMİR" IsTitleVisible="True" ResizeMode="NoResize"
         LogoData="F1 M 39.6888,40.9252L 39.6888,50.2445L 36.3111,50.2445L 36.3111,40.9252L 28.0102,24.4889L 31.9199,24.4889L 37.9915,36.8639L 44.3038,24.4889L 47.9686,24.4889M 19,19L 19,57L 57,57L 57,19L 19,19 Z "          
-        ContentSource="/Pages/Home.xaml">
+        ContentSource="/Pages/Home.xaml" MinWidth="900px">
 
     <mui:ModernWindow.MenuLinkGroups>
         <mui:LinkGroup DisplayName="welcome">
