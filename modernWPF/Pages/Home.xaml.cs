@@ -13,6 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Drawing;
+using System.Data;
+using MySql.Data.MySqlClient;
 namespace modernWPF.Pages
 {
     /// <summary>
@@ -20,9 +22,11 @@ namespace modernWPF.Pages
     /// </summary>
     public partial class Home : UserControl
     {
+        MySqlConnection bag = new MySqlConnection("Server = localhost; Database = hastane; Uid = root; Pwd=;");
         public Home()
         {
             InitializeComponent();
+           
             BitmapImage res = new BitmapImage(new Uri("../resim/logo.png", UriKind.Relative));
             resim.Source = res;
           
@@ -30,7 +34,10 @@ namespace modernWPF.Pages
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            if ((ad.Text=="admin")&&(sifre.Password=="123"))
+            bag.Open();
+            MySqlCommand girisyap = new MySqlCommand("Select * from uyeler where tc='" + giristc.Text.ToString() + "' and sifre = '" + girissifre.Password.ToString() + "'", bag);
+            MySqlDataReader rd = girisyap.ExecuteReader();
+            if ((giristc.Text=="admin")&&(girissifre.Password=="123"))
             {
                 FirstFloor.ModernUI.Presentation.LinkGroup menugrubu = new FirstFloor.ModernUI.Presentation.LinkGroup();
                 menugrubu.DisplayName = "Hosgeldinn Admins";
@@ -46,7 +53,8 @@ namespace modernWPF.Pages
                
                 
             }
-            else if((ad.Text == "basic") && (sifre.Password == "123"))
+           
+            else if (rd.Read())
             {
                 FirstFloor.ModernUI.Presentation.LinkGroup menugrubu = new FirstFloor.ModernUI.Presentation.LinkGroup();
                 menugrubu.DisplayName = "Hosgeldiniz";
@@ -67,6 +75,7 @@ namespace modernWPF.Pages
                 MainWindow ab = Application.Current.MainWindow as MainWindow;
                 ab.MenuLinkGroups.Clear();
                 ab.MenuLinkGroups.Add(menugrubu);
+                bag.Close();
 
             }
             else
@@ -85,7 +94,21 @@ namespace modernWPF.Pages
           
             if (md.DialogResult.Value == true)
             {
+                bag.Open();
+                MySqlCommand girisyap2 = new MySqlCommand("Select * from uyeler where tc='" + md.tcno.Text.ToString() + "'", bag);
+                MySqlDataReader oku = girisyap2.ExecuteReader();
+              if(oku.Read())
+                {
+                    MessageBox.Show("Daha önce böyle bir kullanıcı adı kullanılmıs");
+                    bag.Close();
+                }
+                else { 
+                MySqlCommand ekle = new MySqlCommand("INSERT INTO uyeler(tc,ad,soyad,cinsiyet,dYeri,dTarihi,babaad,annead,eposta,sifre) VALUES ('" + md.tcno.Text + "','" + md.ad.Text + "','" + md.soyad.Text + "','" + md.cinsiyet.Text + "','" + md.dyeri.Text + "','"+md.tarih.Text+"','"+md.babaad.Text+"','"+md.annead.Text+"','"+md.eposta.Text+"','"+md.sifre.Text+"')", bag);
+                ekle.ExecuteNonQuery();
+                ekle.Dispose();
+                bag.Close();
                 MessageBox.Show((md.cinsiyet.Text).ToString());
+                }
 
             }
             else
