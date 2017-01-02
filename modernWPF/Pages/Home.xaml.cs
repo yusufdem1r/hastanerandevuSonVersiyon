@@ -23,6 +23,7 @@ namespace modernWPF.Pages
     public partial class Home : UserControl
     {
         MySqlConnection bag = new MySqlConnection("Server = localhost; Database = hastane; Uid = root; Pwd=;");
+        MySqlConnection bag2 = new MySqlConnection("Server = localhost; Database = hastane; Uid = root; Pwd=;");
         public Home()
         {
             InitializeComponent();
@@ -35,8 +36,14 @@ namespace modernWPF.Pages
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             bag.Open();
+            bag2.Open();
             MySqlCommand girisyap = new MySqlCommand("Select * from uyeler where tc='" + giristc.Text.ToString() + "' and sifre = '" + girissifre.Password.ToString() + "'", bag);
             MySqlDataReader rd = girisyap.ExecuteReader();
+            MySqlCommand giris = new MySqlCommand("INSERT INTO giris(tc) VALUES('" +giristc.Text+"') ", bag2);
+            giris.ExecuteNonQuery();
+            giris.Dispose();
+            bag2.Close();
+           
             if ((giristc.Text=="admin")&&(girissifre.Password=="123"))
             {
                 FirstFloor.ModernUI.Presentation.LinkGroup menugrubu = new FirstFloor.ModernUI.Presentation.LinkGroup();
@@ -74,7 +81,7 @@ namespace modernWPF.Pages
                 linkeklenecek.Source = new Uri("Pages/randevu.xaml", UriKind.Relative);
                 linkeklenecek2.Source = new Uri("Pages/radevutakip.xaml", UriKind.Relative);
                 linkeklenecek3.Source = new Uri("Pages/uyeguncelle.xaml", UriKind.Relative);
-
+                
 
                 menugrubu.Links.Add(linkeklenecek);
                 menugrubu.Links.Add(linkeklenecek2);
@@ -92,7 +99,7 @@ namespace modernWPF.Pages
                 bag.Close();
 
             }
-            
+           
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
