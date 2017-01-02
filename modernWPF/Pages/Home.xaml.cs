@@ -50,14 +50,18 @@ namespace modernWPF.Pages
                 menugrubu.DisplayName = "Hosgeldinn Admin 156901020";
                 FirstFloor.ModernUI.Presentation.Link linkeklenecek = new FirstFloor.ModernUI.Presentation.Link();
                 FirstFloor.ModernUI.Presentation.Link linkeklenecek2 = new FirstFloor.ModernUI.Presentation.Link();
+                FirstFloor.ModernUI.Presentation.Link linkeklenecek3 = new FirstFloor.ModernUI.Presentation.Link();
                 linkeklenecek.DisplayName = "ADMİN PANELİ";
                 linkeklenecek2.DisplayName = "UYE EKLE";
+                linkeklenecek3.DisplayName = "Alınmıs Randevular";
                 linkeklenecek.Source = new Uri("Pages/BasicPage1.xaml", UriKind.Relative);
              
                 linkeklenecek2.Source = new Uri("Pages/uyeol.xaml", UriKind.Relative);
+                linkeklenecek3.Source = new Uri("Pages/adminrandevular.xaml", UriKind.Relative);
 
                 menugrubu.Links.Add(linkeklenecek);
                 menugrubu.Links.Add(linkeklenecek2);
+                menugrubu.Links.Add(linkeklenecek3);
                 MainWindow ab = Application.Current.MainWindow as MainWindow;
                 ab.MenuLinkGroups.Clear();
                 ab.MenuLinkGroups.Add(menugrubu);

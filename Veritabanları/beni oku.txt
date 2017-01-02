@@ -1,0 +1,2 @@
+hastane veri tabanı adı altında içinkiler klasorunde veri tabanları ayrı ayrı
+bulunmaktadır :)

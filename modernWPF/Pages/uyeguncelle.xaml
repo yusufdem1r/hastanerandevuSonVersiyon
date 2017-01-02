@@ -5,12 +5,59 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:mui="http://firstfloorsoftware.com/ModernUI"
              mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="300">
+             d:DesignHeight="500" d:DesignWidth="900">
     <Grid Style="{StaticResource ContentRoot}">
         <ScrollViewer>
             <StackPanel MinWidth="200">
                 <TextBlock Text="UYE GUNCELLE" Style="{StaticResource Heading2}" />
                 <TextBlock Text="UYE GUNCELLEME KISMI" />
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="10px"></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" Grid.Row="1">T.C. Kimlik Numaranız:</Label>
+                    <TextBox Margin="5px" Name="tcno" Grid.Column="1" Grid.Row="1" Text="{Binding SelectedItem.tc, ElementName=dg1}"></TextBox>
+                    <Label Grid.Column="0" Grid.Row="2">Adınız:</Label>
+                    <TextBox Margin="5px" Name="ad" Grid.Column="1" Grid.Row="2" Text="{Binding SelectedItem.ad, ElementName=dg1}"></TextBox>
+                    <Label Grid.Column="0" Grid.Row="3">Soy Adınız:</Label>
+                    <TextBox Margin="5px" Name="soyad" Grid.Column="1" Grid.Row="3" Text="{Binding SelectedItem.soyad, ElementName=dg1}"></TextBox>
+
+                    <Label Grid.Column="0" Grid.Row="4">Cinsiyetiniz:</Label>
+                    <Label Grid.Column="0" Grid.Row="5">Doğum Yeriniz:</Label>
+                    <TextBox Margin="5px" Name="dyeri" Grid.Column="1" Grid.Row="5" Text="{Binding SelectedItem.dYeri, ElementName=dg1}"></TextBox>
+                    <Label Grid.Column="0" Grid.Row="6">Doğum Tarihiniz:</Label>
+                    <Label Grid.Column="0" Grid.Row="7">Baba Adı:</Label>
+                    <TextBox Margin="5px" Name="babaad" Grid.Column="1" Grid.Row="7" Text="{Binding SelectedItem.babaad, ElementName=dg1}"></TextBox>
+                    <Label Grid.Column="0" Grid.Row="8">Anne Adı:</Label>
+                    <TextBox Margin="5px" Name="annead" Grid.Column="1" Grid.Row="8" Text="{Binding SelectedItem.annead, ElementName=dg1}"></TextBox>
+                    <Label Grid.Column="0" Grid.Row="9">E-posta Adresiniz:</Label>
+                    <TextBox Margin="5px" Name="eposta" Grid.Column="1" Grid.Row="9" Text="{Binding SelectedItem.eposta, ElementName=dg1}"></TextBox>
+
+                    <Label Grid.Column="0" Grid.Row="10">Parolanız:</Label>
+                    <TextBox Margin="5px" Name="sifre" Grid.Column="1" Grid.Row="10" Text="{Binding SelectedItem.sifre, ElementName=dg1}"></TextBox>
+
+                    <DatePicker Margin="5" Grid.Row="6" Grid.Column="1"  Name="tarih"  />
+                    <ComboBox Name="cinsiyet" Margin="5px" Grid.Row="4" Grid.Column="1"/>
+                    <Button  Grid.Row="11" Grid.Column="1" Margin="5px"  Grid.ColumnSpan="1" Click="Button_Click_1">Güncelle</Button>
+                    <DataGrid Name="dg1" Grid.Column="3" Grid.Row="2"></DataGrid>
+                </Grid>
                 <Button Click="Button_Click">çıkış</Button>
             </StackPanel>
         </ScrollViewer>

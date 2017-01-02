@@ -55,3 +55,5 @@ C:\Users\YUSUF\Desktop\modernWPF\modernWPF\bin\Release\System.Web.Razor.xml
 C:\Users\YUSUF\Desktop\modernWPF\modernWPF\bin\Release\System.Web.WebPages.Deployment.xml
 C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Release\Pages\uyeol.baml
 C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Release\Pages\uyeol.g.cs
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Release\Pages\adminrandevular.baml
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Release\Pages\adminrandevular.g.cs
