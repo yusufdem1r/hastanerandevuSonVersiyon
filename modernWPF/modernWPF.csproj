@@ -152,8 +152,15 @@
     <Compile Include="Pages\uyeguncelle.xaml.cs">
       <DependentUpon>uyeguncelle.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\uyeol.xaml.cs">
+      <DependentUpon>uyeol.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Page Include="Pages\uyeguncelle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\uyeol.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

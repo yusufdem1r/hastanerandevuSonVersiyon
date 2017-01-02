@@ -53,3 +53,5 @@ C:\Users\YUSUF\Desktop\modernWPF\modernWPF\bin\Release\System.Web.Helpers.xml
 C:\Users\YUSUF\Desktop\modernWPF\modernWPF\bin\Release\Microsoft.Web.Infrastructure.xml
 C:\Users\YUSUF\Desktop\modernWPF\modernWPF\bin\Release\System.Web.Razor.xml
 C:\Users\YUSUF\Desktop\modernWPF\modernWPF\bin\Release\System.Web.WebPages.Deployment.xml
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Release\Pages\uyeol.baml
+C:\Users\YUSUF\Desktop\modernWPF\modernWPF\obj\Release\Pages\uyeol.g.cs

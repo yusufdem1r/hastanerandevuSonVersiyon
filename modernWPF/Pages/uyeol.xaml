@@ -1,0 +1,63 @@
+﻿<UserControl x:Class="modernWPF.Pages.uyeol"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="900">
+    <Grid Style="{StaticResource ContentRoot}">
+        <ScrollViewer>
+            <StackPanel MinWidth="200">
+                <TextBlock Text="Üye Olma" Style="{StaticResource Heading2}" />
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="10px"></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" Grid.Row="1">T.C. Kimlik Numaranız:</Label>
+                    <TextBox Margin="5px" Name="tcno" Grid.Column="1" Grid.Row="1"></TextBox>
+                    <Label Grid.Column="0" Grid.Row="2">Adınız:</Label>
+                    <TextBox Margin="5px" Name="ad" Grid.Column="1" Grid.Row="2"></TextBox>
+                    <Label Grid.Column="0" Grid.Row="3">Soy Adınız:</Label>
+                    <TextBox Margin="5px" Name="soyad" Grid.Column="1" Grid.Row="3"></TextBox>
+
+                    <Label Grid.Column="0" Grid.Row="4">Cinsiyetiniz:</Label>
+                    <Label Grid.Column="0" Grid.Row="5">Doğum Yeriniz:</Label>
+                    <TextBox Margin="5px" Name="dyeri" Grid.Column="1" Grid.Row="5"></TextBox>
+                    <Label Grid.Column="0" Grid.Row="6">Doğum Tarihiniz:</Label>
+                    <Label Grid.Column="0" Grid.Row="7">Baba Adı:</Label>
+                    <TextBox Margin="5px" Name="babaad" Grid.Column="1" Grid.Row="7"></TextBox>
+                    <Label Grid.Column="0" Grid.Row="8">Anne Adı:</Label>
+                    <TextBox Margin="5px" Name="annead" Grid.Column="1" Grid.Row="8"></TextBox>
+                    <Label Grid.Column="0" Grid.Row="9">E-posta Adresiniz:</Label>
+                    <TextBox Margin="5px" Name="eposta" Grid.Column="1" Grid.Row="9"></TextBox>
+
+                    <Label Grid.Column="0" Grid.Row="10">Parolanız:</Label>
+                    <PasswordBox Margin="5px" Name="sifre" Grid.Column="1" Grid.Row="10"></PasswordBox>
+
+                    <DatePicker Margin="5" Grid.Row="6" Grid.Column="1"  Name="tarih"  />
+                    <ComboBox Name="cinsiyet" Margin="5px" Grid.Row="4" Grid.Column="1"/>
+                    <Button Click="Button_Click_1" Grid.Row="11" Grid.Column="1" Margin="5px"  Grid.ColumnSpan="1">Uye Ol</Button>
+                </Grid>
+                <Button Click="Button_Click">çıkış</Button>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

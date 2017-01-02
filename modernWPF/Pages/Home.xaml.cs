@@ -40,17 +40,23 @@ namespace modernWPF.Pages
             if ((giristc.Text=="admin")&&(girissifre.Password=="123"))
             {
                 FirstFloor.ModernUI.Presentation.LinkGroup menugrubu = new FirstFloor.ModernUI.Presentation.LinkGroup();
-                menugrubu.DisplayName = "Hosgeldinn Admins";
+                menugrubu.DisplayName = "Hosgeldinn Admin 156901020";
                 FirstFloor.ModernUI.Presentation.Link linkeklenecek = new FirstFloor.ModernUI.Presentation.Link();
+                FirstFloor.ModernUI.Presentation.Link linkeklenecek2 = new FirstFloor.ModernUI.Presentation.Link();
                 linkeklenecek.DisplayName = "ADMİN PANELİ";
+                linkeklenecek2.DisplayName = "UYE EKLE";
                 linkeklenecek.Source = new Uri("Pages/BasicPage1.xaml", UriKind.Relative);
+             
+                linkeklenecek2.Source = new Uri("Pages/uyeol.xaml", UriKind.Relative);
 
                 menugrubu.Links.Add(linkeklenecek);
+                menugrubu.Links.Add(linkeklenecek2);
                 MainWindow ab = Application.Current.MainWindow as MainWindow;
                 ab.MenuLinkGroups.Clear();
                 ab.MenuLinkGroups.Add(menugrubu);
                 bag.Close();
-
+               
+             
 
 
             }
