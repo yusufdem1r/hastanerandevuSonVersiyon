@@ -12,7 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using System.Windows.Threading;
+using System.Data;
+using MySql.Data.MySqlClient;
 namespace modernWPF.Pages
 {
     /// <summary>
@@ -30,6 +32,11 @@ namespace modernWPF.Pages
             abc.MenuLinkGroups.Clear();
             abc.ContentSource = new Uri("Pages/Home.xaml", UriKind.Relative);
 
+
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
 
         }
     }

@@ -17,7 +17,8 @@
                         <RowDefinition></RowDefinition>
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
                         <ColumnDefinition></ColumnDefinition>
                     </Grid.ColumnDefinitions>
                     <Grid Grid.Row="0" Grid.RowSpan="2" Grid.Column="0" Name="kulbilgileri">
@@ -27,7 +28,7 @@
                             <RowDefinition></RowDefinition>
                         </Grid.RowDefinitions>
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition Width="auto"></ColumnDefinition>
                             <ColumnDefinition></ColumnDefinition>
                             <ColumnDefinition></ColumnDefinition>
                         </Grid.ColumnDefinitions>
@@ -36,7 +37,33 @@
                         
 
                     </Grid>
-                    
+                    <Grid Grid.Row="1" Grid.Column="2" Name="randevular">
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Row="0" Grid.Column="0">Hastane Adı:</Label>
+                        <ComboBox Name="hastanead"  Grid.Row="0" Grid.Column="1" Margin="6px" Grid.ColumnSpan="2" />
+                        <Label Grid.Row="1" Grid.Column="0" Margin="6px" >Klinik: </Label>
+                        <ComboBox  Name="klinik"  Grid.Row="1" Grid.Column="1" Margin="6px" Grid.ColumnSpan="2" />
+                        <Label Grid.Row="2" Grid.Column="0" Margin="6px" >Doktor:</Label>
+                        <ComboBox  Name="doktor"  Grid.Row="2" Grid.Column="1" Margin="6px" Grid.ColumnSpan="2" />
+                        <Label Grid.Row="3" Grid.Column="0" Margin="6px" >Tarih</Label>
+                        <DatePicker  Name="tarih"  Grid.Row="3" Grid.Column="1" Margin="6px" Grid.ColumnSpan="2" />
+                        <Label Grid.Row="4" Grid.Column="0" Margin="6px" >saat:</Label>
+                        <ComboBox  Name="saat"  Grid.Row="4" Grid.Column="1" Margin="6px" Grid.ColumnSpan="2" />
+                        <Button Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Margin="6px" Click="Button_Click_1">Randevuyu Al</Button>
+
+                    </Grid>
                     
                 </Grid>
                 <Button Click="Button_Click">çıkış</Button>
