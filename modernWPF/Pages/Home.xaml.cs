@@ -122,7 +122,7 @@ namespace modernWPF.Pages
                     ekle.ExecuteNonQuery();
                     ekle.Dispose();
                     bag.Close();
-                    MessageBox.Show((md.cinsiyet.Text).ToString());
+                    MessageBox.Show("Tebrikler Başarıyla Uye Oldunuz.");
                 
 
             }
